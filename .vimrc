@@ -12,12 +12,12 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set number
+set spl=en_us spell
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-"set foldmethod=syntax
 
 "set the leader to be ","
 let mapleader = ","
@@ -27,9 +27,6 @@ syntax enable
 set background=dark
 colorscheme solarized
 
-"open NERDTree if no filename parame passed on startup
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 "map Ctrl+n to open nerd tree
 map <C-n> :NERDTreeToggle<CR>
 "close vim if only window left open is nerdtree
@@ -37,27 +34,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 "turn on js autoformat
 map <C-f> :call JsBeautify()<cr>
-
-" This allows buffers to be hidden if you've modified a buffer.
-" This is almost a must if you wish to use buffers like tabs.
-set hidden
-
-" To open a new empty buffer
-" This replaces :tabnew which I used to bind to this mapping
-nmap <leader>T :enew<cr>
-
-" Move to the next buffer
-nmap <leader>l :bnext<CR>
-
-" Move to the previous buffer
-nmap <leader>h :bprevious<CR>
-
-" Close the current buffer and move to the previous one
-" This replicates the idea of closing a tab
-nmap <leader>bq :bp <BAR> bd #<CR>
-
-" Show all open buffers and their status
-nmap <leader>bl :ls<CR>
 
 "vim-airline buffer tag line
 "auto open all buffers
@@ -70,9 +46,8 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 "autoformater
 "auto format on :w, should auto detect
 au BufWrite * :Autoformat
-"key map f3
-noremap <F3> :Autoformat<CR>
 
-"Ctrl-P
-set runtimepath^=~/.vim/bundle/ctrlp.vim
+"set the filetype to processing for all .pde files, enables vim-processing for
+"file buffer
+au BufRead,BufNewFile *.pde set filetype=processing
 

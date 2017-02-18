@@ -13,11 +13,15 @@ set softtabstop=2
 set expandtab
 set number
 set spl=en_us spell
+set hlsearch
+set incsearch
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+"ignore angualar ng-* tags
+let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-","trimming empty <"]
 
 "set the leader to be ","
 let mapleader = ","
@@ -50,4 +54,9 @@ au BufWrite * :Autoformat
 "set the filetype to processing for all .pde files, enables vim-processing for
 "file buffer
 au BufRead,BufNewFile *.pde set filetype=processing
+
+"Java-libraries-syntax libraries adds autocomple, need to set javascritp lib
+"here, see sight for full list
+"https://github.com/othree/javascript-libraries-syntax.vim
+let g:used_javascript_libs = 'underscore,backbone'
 

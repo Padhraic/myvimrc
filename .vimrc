@@ -33,11 +33,13 @@ colorscheme solarized
 
 "map Ctrl+n to open nerd tree
 map <C-n> :NERDTreeToggle<CR>
+map <leader>n :NERDTreeToggle<CR>
 "close vim if only window left open is nerdtree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 "turn on js autoformat
 map <C-f> :call JsBeautify()<cr>
+map <leader>f :call JsBeautify()<cr>
 
 "vim-airline buffer tag line
 "auto open all buffers

@@ -1,0 +1,3 @@
+[submodule ".vim/bundle/vim-processing"]
+	path = .vim/bundle/vim-processing
+	url = https://github.com/sophacles/vim-processing.git

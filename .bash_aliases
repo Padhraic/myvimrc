@@ -1,0 +1,2 @@
+alias tmp='cd ~/temp'
+

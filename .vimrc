@@ -6,10 +6,11 @@ set mouse=a
 set ruler
 set statusline+=%#warningmsg#
 set statusline+=%*
+set expandtab
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
-set expandtab
+set autoindent
 set spl=en_us spell
 set hlsearch
 set incsearch

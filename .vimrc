@@ -16,6 +16,11 @@ set hlsearch
 set incsearch
 set relativenumber
 
+"solarized color theme
+syntax enable
+set background=dark
+colorscheme solarized
+
 "Syntastic syntax options
 set statusline+=%{SyntasticStatuslineFlag()}
 let g:syntastic_always_populate_loc_list = 1

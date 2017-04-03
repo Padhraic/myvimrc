@@ -17,9 +17,10 @@ set incsearch
 set relativenumber
 
 "solarized color theme
-syntax enable
-set background=dark
-colorscheme solarized
+"syntax enable
+"set background=dark
+"colorscheme sol
+colorscheme basic-dark
 
 "Syntastic syntax options
 set statusline+=%{SyntasticStatuslineFlag()}

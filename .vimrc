@@ -15,6 +15,7 @@ set spl=en_us spell
 set hlsearch
 set incsearch
 set relativenumber
+set number
 
 "solarized color theme
 "syntax enable

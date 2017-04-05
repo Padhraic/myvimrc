@@ -1,0 +1,13 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "window.zoomLevel": 0,
+    "vsicons.projectDetection.disableDetect": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "php.validate.enable": true,
+    "php.validate.executablePath": "c:\\php\\php.exe",
+    "php.validate.run": "onType",
+    "editor.wordWrap": "off",
+    "editor.lineNumbers": "relative",
+    "editor.formatOnSave": true,
+    "editor.fontSize": 12
+}

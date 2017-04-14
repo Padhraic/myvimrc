@@ -1,0 +1,12 @@
+ln -sf ~/temp/myvimrc/.vim ~/.vim
+ln -sf ~/temp/myvimrc/.vimrc ~/.vimrc
+ln -sf ~/temp/myvimrc/.bash_aliasas ~/.bash_aliases
+ln -sf ~/temp/myvimrc/.tmux.conf ~/.tmux.conf
+ln -sf ~/temp/myvimrc/.dircolors ~/.dircolors
+
+sudo apt-get install mc
+sudo apt-get install git bash-completion
+sudo apt-get install npm
+npm install -g grunt
+
+

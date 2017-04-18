@@ -1,0 +1,6 @@
+sudo apt-get install mc
+sudo apt-get install git bash-completion
+sudo apt-get install npm
+npm install -g grunt
+
+

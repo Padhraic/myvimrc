@@ -1,0 +1,9 @@
+ln -sf ~/temp/myvimrc/.vim ~/.vim
+ln -sf ~/temp/myvimrc/.vimrc ~/.vimrc
+ln -sf ~/temp/myvimrc/.bash_aliases ~/.bash_aliases
+ln -sf ~/temp/myvimrc/.tmux.conf ~/.tmux.conf
+#ln -sf ~/temp/myvimrc/dircolors.256dark ~/.dircolors
+ln -sf ~/temp/myvimrc/dircolors.ansi-universal ~/.dircolors
+#ln -sf ~/temp/myvimrc/dircolors.ansi-dark ~/.dircolors
+ln -sf ~/temp/myvimrc/.git-completion.bash ~/.git-completion.bash
+

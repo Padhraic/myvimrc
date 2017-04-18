@@ -6,4 +6,5 @@ ln -sf ~/temp/myvimrc/.tmux.conf ~/.tmux.conf
 ln -sf ~/temp/myvimrc/dircolors.ansi-universal ~/.dircolors
 #ln -sf ~/temp/myvimrc/dircolors.ansi-dark ~/.dircolors
 ln -sf ~/temp/myvimrc/.git-completion.bash ~/.git-completion.bash
+ln -sf ~/temp/myvimrc/.tmux ~/.tmux
 

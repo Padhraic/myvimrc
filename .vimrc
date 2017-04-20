@@ -11,26 +11,35 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set autoindent
-set spl=en_us spell
+"set spl=en_us spell
+set nospell
 set hlsearch
 set incsearch
 set relativenumber
 set number
 
+"gruvbox color scheme
+syntax enable
+set background=dark
+colorscheme gruvbox
+if &term =~ '256color'
+  set t_ut=
+endif
+
 "solarized color theme
 "syntax enable
 "set background=dark
 "colorscheme sol
-colorscheme basic-dark
+"colorscheme basic-dark
 
 "Syntastic syntax options
-set statusline+=%{SyntasticStatuslineFlag()}
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+"set statusline+=%{SyntasticStatuslineFlag()}
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_wq = 0
 "ignore angualar ng-* tags
-let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-","trimming empty <"]
+"let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-","trimming empty <"]
 
 "set the leader to be ","
 let mapleader = ","

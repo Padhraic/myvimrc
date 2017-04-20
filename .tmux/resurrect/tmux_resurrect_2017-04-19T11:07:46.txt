@@ -1,0 +1,5 @@
+pane	myvimrc	0	:bash	1	:*	0	:	1	bash	:vim .vimrc
+pane	myvimrc	0	:bash	1	:*	1	:	0	bash	:
+pane	myvimrc	0	:bash	1	:*	2	:	0	bash	:
+window	myvimrc	0	1	:*	ac2b,117x62,0,0{68x62,0,0,0,48x62,69,0[48x28,69,0,2,48x33,69,29,3]}
+state	myvimrc	

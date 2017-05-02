@@ -8,6 +8,10 @@ sudo apt-key adv --keyserver hkp://heyserver.ubuntu.com:80 --recv-keys 417A0893
 sudo apt-get update
 
 sudo ~/temp/myvimrc/dotnet-unintall-debian-packages.sh
-
 sudo apt-get install dotnet-dev-1.0.3
+
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt-get update
+sudo apt-get install neovim
 

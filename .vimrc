@@ -62,7 +62,7 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 
 "autoformater
 "auto format on :w, should auto detect
-au BufWrite * :Autoformat
+"au BufWrite * :Autoformat
 
 "set the filetype to processing for all .pde files, enables vim-processing for
 "file buffer

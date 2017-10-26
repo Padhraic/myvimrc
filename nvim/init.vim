@@ -1,4 +1,24 @@
-execute pathogen#infect()
+" Specify a directory for plugin
+call plug#begin('~/.local/share/nvim/plugged')
+" Plugin commands
+" PlugInstall - installs plugins
+" PlugUpdate - install or update plugins
+" PlugClean! - remove unused directories
+" PlugUpgrade - Upgrade vim-plug itself
+" PlugStatus - check the status of plugins
+"
+Plug 'scrooloose/nerdtree'
+Plug 'wincent/command-t'
+Plug 'othree/html5.vim'
+Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'Chiel92/vim-autoformat'
+Plug 'pangloss/vim-javascript'
+Plug 'maksimr/vim-jsbeautify'
+Plug 'sophacles/vim-processing'
+
+" Initialize plugin system
+call plug#end()
+
 syntax on
 filetype plugin indent on
 set backspace=indent,eol,start
@@ -22,9 +42,7 @@ set number
 syntax enable
 set background=dark
 colorscheme gruvbox
-if &term =~ '256color'
-  set t_ut=
-endif
+set termguicolors
 
 "solarized color theme
 "syntax enable

@@ -1,1 +1,1 @@
-/home/padhraic/temp/myvimrc/.vim
+C:/home/padhraic/temp/myvimrc/.vim

@@ -9,7 +9,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 " PlugStatus - check the status of plugins
 "
 Plug 'scrooloose/nerdtree'
-Plug 'wincent/command-t'
+" Plug 'wincent/command-t'
 Plug 'othree/html5.vim'
 Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'Chiel92/vim-autoformat'
@@ -17,6 +17,8 @@ Plug 'pangloss/vim-javascript'
 Plug 'maksimr/vim-jsbeautify'
 Plug 'sophacles/vim-processing'
 Plug 'vim-airline/vim-airline'
+Plug 'Yggdroot/LeaderF', { 'do': '.\install.bat' }
+" Plug 'cloudhead/neovim-fuzzy'
 
 " Initialize plugin system
 call plug#end()
@@ -84,7 +86,10 @@ map <leader>n :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 "turn on js autoformat
-map <leader>f :call JsBeautify()<cr>
+map <leader>b :call JsBeautify()<cr>
+
+" set fuzy finder shortcut
+" map <leader>t :FuzzyOpen<CR>
 
 "vim-airline buffer tag line
 "auto open all buffers

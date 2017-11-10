@@ -17,7 +17,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'maksimr/vim-jsbeautify'
 Plug 'sophacles/vim-processing'
 Plug 'vim-airline/vim-airline'
-Plug 'Yggdroot/LeaderF', { 'do': '.\install.bat' }
+" Plug 'Yggdroot/LeaderF', { 'do': '.\install.bat' }
 " Plug 'cloudhead/neovim-fuzzy'
 
 " Initialize plugin system

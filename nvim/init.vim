@@ -8,9 +8,10 @@ call plug#begin('~/.local/share/nvim/plugged')
 " PlugUpgrade - Upgrade vim-plug itself
 " PlugStatus - check the status of plugins
 "
-Plug 'scrooloose/nerdtree'
+"Plug 'scrooloose/nerdtree'
 " Plug 'wincent/command-t'
 Plug 'othree/html5.vim'
+Plug 'kien/ctrlp.vim'
 Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'Chiel92/vim-autoformat'
 Plug 'pangloss/vim-javascript'
@@ -47,7 +48,7 @@ set number
 "gruvbox color scheme
 syntax enable
 set background=dark
-colorscheme gruvbox
+colorscheme VisualStudioDark
 set termguicolors
 
 "solarized color theme
@@ -81,9 +82,9 @@ endif
 let mapleader = ","
 
 "map Ctrl+n to open nerd tree
-map <leader>n :NERDTreeToggle<CR>
+"map <leader>n :NERDTreeToggle<CR>
 "close vim if only window left open is nerdtree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 "turn on js autoformat
 map <leader>b :call JsBeautify()<cr>

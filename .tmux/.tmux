@@ -1,1 +1,1 @@
-/home/padhraic/temp/myvimrc/.tmux
+C:/home/padhraic/temp/myvimrc/.tmux

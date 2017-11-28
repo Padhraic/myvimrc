@@ -48,7 +48,7 @@ set number
 "gruvbox color scheme
 syntax enable
 set background=dark
-colorscheme VisualStudioDark
+colorscheme harlequin
 set termguicolors
 
 "solarized color theme

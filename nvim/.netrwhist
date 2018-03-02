@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/padhraic/repo/angular3-test'
+let g:netrw_dirhist_2='/Users/padhraic/repo/angular3-test/Views'
+let g:netrw_dirhist_3='/Users/padhraic/repo/angular3-test'
+let g:netrw_dirhist_4='/Users/padhraic/repo/angular3-test/Controllers'
+let g:netrw_dirhist_5='/Users/padhraic/repo/angular3-test'
+let g:netrw_dirhist_6='/Users/padhraic/repo/webpack-demo'
+let g:netrw_dirhist_7='/Users/padhraic/repo/webpack-demo/src'
+let g:netrw_dirhist_8='/Users/padhraic/temp/myvimrc/.vim/bundle'

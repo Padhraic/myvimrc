@@ -20,6 +20,9 @@ Plug 'sophacles/vim-processing'
 Plug 'vim-airline/vim-airline'
 " Plug 'Yggdroot/LeaderF', { 'do': '.\install.bat' }
 " Plug 'cloudhead/neovim-fuzzy'
+Plug 'vim-syntastic/syntastic'
+Plug 'tpope/vim-dispatch'
+" Plug 'OmniSharp/omnisharp-vim'
 
 " Initialize plugin system
 call plug#end()
